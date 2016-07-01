@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="300dp"
+    android:background="@drawable/exchange_list_item_shape"
+    android:padding="50dp">
+
+    <TextView
+        android:id="@+id/txtCompany"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Şirket :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtCompany"
+        android:layout_toEndOf="@+id/txtCompany"
+        android:layout_toRightOf="@+id/txtCompany"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="60dp"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCompanyName"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Fiyat :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtPriceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtPrice"
+        android:layout_toEndOf="@+id/txtPrice"
+        android:layout_toRightOf="@+id/txtPrice"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtPurchasePrice"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignLeft="@+id/txtPrice"
+        android:layout_alignStart="@+id/txtPrice"
+        android:layout_below="@+id/txtPrice"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Alış :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtPurchasePriceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtPurchasePrice"
+        android:layout_toEndOf="@+id/txtPurchasePrice"
+        android:layout_toRightOf="@+id/txtPurchasePrice"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtSalePrice"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtPurchasePrice"
+
+        android:layout_alignStart="@+id/txtPurchasePrice"
+        android:layout_below="@+id/txtPurchasePrice"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Satış :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtSalePriceValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtSalePrice"
+        android:layout_toEndOf="@+id/txtSalePrice"
+        android:layout_toRightOf="@+id/txtSalePrice"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtPercantege"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtSalePrice"
+        android:layout_alignStart="@+id/txtSalePrice"
+        android:layout_below="@+id/txtSalePrice"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:gravity="start"
+        android:text="% Değer :"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/txtPercantageValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtPercantege"
+        android:layout_toEndOf="@+id/txtPercantege"
+        android:layout_toRightOf="@+id/txtPercantege"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="18dp" />
+
+</RelativeLayout>

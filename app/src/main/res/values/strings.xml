@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Borsa Takip ve Alarm</string>
+    <string name="drawerOpen">Açık</string>
+    <string name="drawerClose">Kapalı</string>
+</resources>
